@@ -61,6 +61,8 @@ Ali todos:
 - @ali make animations SSR properly
   - disable them during SSR (make sure css variables are used), then on hydration turn it on
   - make sure enterStyle still works
+  - see t_will-mount
+   - hasEnterStyle && ((state.unmounted && needsMount) || !isClient
 
 - @ali Modal doesn't re-enable pointer events until the animation fully completes (popover too?)
   - https://github.com/tamagui/tamagui/issues/985
